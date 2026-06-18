@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Битрикс24 — Авторасстановка подписей
 // @namespace    http://tampermonkey.net/
-// @version      4.1
+// @version      4.2
 // @description  Находит строки "/ Имя" через OCR и ставит блоки подписей точно на их место
 // @match        https://*.bitrix24.ru/*
 // @grant        GM_setValue
@@ -314,7 +314,7 @@
             setStatus('❌ Ошибка: ' + e.message);
             showToast('❌ Ошибка: ' + e.message);
         } finally {
-            if (btn) { btn.disabled = false; btn.textContent = '✍️ Расставить подписи'; }
+            if (btn) { btn.disabled = false; btn.textContent = '✍️ Расставить ИИ подписи'; }
         }
     }
 
