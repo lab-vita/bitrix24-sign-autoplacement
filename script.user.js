@@ -7,8 +7,8 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @require      https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js
-// @updateURL    https://raw.githubusercontent.com/ВАШ_USERNAME/bitrix24-sign-autoplacement/main/script.user.js
-// @downloadURL  https://raw.githubusercontent.com/ВАШ_USERNAME/bitrix24-sign-autoplacement/main/script.user.js
+// @updateURL    https://raw.githubusercontent.com/lab-vita/bitrix24-sign-autoplacement/main/script.user.js
+// @downloadURL  https://raw.githubusercontent.com/lab-vita/bitrix24-sign-autoplacement/main/script.user.js
 // ==/UserScript==
 
 (function () {
